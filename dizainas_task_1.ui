@@ -6,51 +6,63 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>558</width>
-    <height>369</height>
+    <width>707</width>
+    <height>346</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pirmas_mygtukas">
+   <widget class="QPushButton" name="padidinti">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>140</y>
-      <width>75</width>
-      <height>24</height>
+      <x>190</x>
+      <y>70</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>Padidinti</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sumazinti">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>70</y>
+      <width>91</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="text">
-     <string>Pirmas</string>
+     <string>Sumazinti</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="antras_mygtukas">
+   <widget class="QLabel" name="skaicius">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>140</y>
-      <width>75</width>
-      <height>24</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Antras</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="trecias_mygtukas">
-    <property name="geometry">
-     <rect>
-      <x>260</x>
-      <y>140</y>
+      <x>320</x>
+      <y>120</y>
       <width>71</width>
-      <height>21</height>
+      <height>71</height>
      </rect>
     </property>
     <property name="text">
-     <string>Trečias</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:700; text-decoration: underline;&quot;&gt;0&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+    <property name="margin">
+     <number>0</number>
     </property>
    </widget>
   </widget>
@@ -59,7 +71,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>558</width>
+     <width>707</width>
      <height>22</height>
     </rect>
    </property>

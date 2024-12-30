@@ -6,51 +6,67 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>558</width>
-    <height>369</height>
+    <width>424</width>
+    <height>259</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pirmas_mygtukas">
+   <widget class="QLineEdit" name="Input_web">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>140</y>
+      <x>20</x>
+      <y>30</y>
+      <width>113</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Text">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>30</y>
+      <width>211</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::PlainText</enum>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Email_label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>49</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>WebLink</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Start">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
       <width>75</width>
       <height>24</height>
      </rect>
     </property>
     <property name="text">
-     <string>Pirmas</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="antras_mygtukas">
-    <property name="geometry">
-     <rect>
-      <x>160</x>
-      <y>140</y>
-      <width>75</width>
-      <height>24</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Antras</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="trecias_mygtukas">
-    <property name="geometry">
-     <rect>
-      <x>260</x>
-      <y>140</y>
-      <width>71</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Trečias</string>
+     <string>Start</string>
     </property>
    </widget>
   </widget>
@@ -59,7 +75,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>558</width>
+     <width>424</width>
      <height>22</height>
     </rect>
    </property>
